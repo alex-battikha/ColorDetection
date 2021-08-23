@@ -21,6 +21,13 @@ void captureEvent(Capture video) {
 void draw() {
   video.loadPixels();
   image(video, 0, 0);
+  
+  //Loops through each pixel on screen
+  for(int x = 0; x < video.width; x++) {
+    for(int y= 0; y < video.height; y++) {
+    
+    }
+  }
 
 }
 
